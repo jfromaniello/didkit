@@ -28,7 +28,7 @@
     "package": "node-pre-gyp package",
     "spec": "jest",
     "test": "npm run build && npm run spec",
-    "upload-binary": "npm run build-release && node-pre-gyp package && node-pre-gyp-github publish",
+    "upload-binary": "node-pre-gyp build publish info",
     "version": "npm run build-release"
   },
   "repository": {
